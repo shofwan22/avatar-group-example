@@ -3,7 +3,7 @@
 exports[`<AvatarGroup /> renders correct number of avatars 1`] = `
 <div>
   <div
-    class="flex items-center -space-x-4"
+    class="flex items-center  -space-x-2"
     data-testid="avatar-container"
   >
     <div
@@ -11,7 +11,7 @@ exports[`<AvatarGroup /> renders correct number of avatars 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -21,7 +21,7 @@ exports[`<AvatarGroup /> renders correct number of avatars 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -30,7 +30,7 @@ exports[`<AvatarGroup /> renders correct number of avatars 1`] = `
       data-testid="avatar-component"
     >
       <div
-        class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
+        class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
         data-testid="avatar-name"
       >
         CV
@@ -41,13 +41,13 @@ exports[`<AvatarGroup /> renders correct number of avatars 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
     </div>
     <div
-      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-slate-300 text-slate-600 text-base font-semibold flex items-center justify-center"
       data-testid="avatar-more"
     >
       +
@@ -60,7 +60,7 @@ exports[`<AvatarGroup /> renders correct number of avatars 1`] = `
 exports[`<AvatarGroup /> should render correctly 1`] = `
 <div>
   <div
-    class="flex items-center -space-x-4"
+    class="flex items-center  -space-x-2"
     data-testid="avatar-container"
   >
     <div
@@ -68,7 +68,7 @@ exports[`<AvatarGroup /> should render correctly 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -78,7 +78,7 @@ exports[`<AvatarGroup /> should render correctly 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -87,7 +87,7 @@ exports[`<AvatarGroup /> should render correctly 1`] = `
       data-testid="avatar-component"
     >
       <div
-        class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
+        class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
         data-testid="avatar-name"
       >
         CV
@@ -98,13 +98,13 @@ exports[`<AvatarGroup /> should render correctly 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
     </div>
     <div
-      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-slate-300 text-slate-600 text-base font-semibold flex items-center justify-center"
       data-testid="avatar-more"
     >
       +
@@ -117,7 +117,7 @@ exports[`<AvatarGroup /> should render correctly 1`] = `
 exports[`<AvatarGroup /> should render name initial if there is no image 1`] = `
 <div>
   <div
-    class="flex items-center -space-x-4"
+    class="flex items-center  -space-x-2"
     data-testid="avatar-container"
   >
     <div
@@ -125,7 +125,7 @@ exports[`<AvatarGroup /> should render name initial if there is no image 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -135,7 +135,7 @@ exports[`<AvatarGroup /> should render name initial if there is no image 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -144,7 +144,7 @@ exports[`<AvatarGroup /> should render name initial if there is no image 1`] = `
       data-testid="avatar-component"
     >
       <div
-        class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
+        class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
         data-testid="avatar-name"
       >
         CV
@@ -155,13 +155,13 @@ exports[`<AvatarGroup /> should render name initial if there is no image 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
     </div>
     <div
-      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-slate-300 text-slate-600 text-base font-semibold flex items-center justify-center"
       data-testid="avatar-more"
     >
       +
@@ -174,7 +174,7 @@ exports[`<AvatarGroup /> should render name initial if there is no image 1`] = `
 exports[`<AvatarGroup /> should render the overflow count correctly 1`] = `
 <div>
   <div
-    class="flex items-center -space-x-4"
+    class="flex items-center  -space-x-2"
     data-testid="avatar-container"
   >
     <div
@@ -182,7 +182,7 @@ exports[`<AvatarGroup /> should render the overflow count correctly 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -192,7 +192,7 @@ exports[`<AvatarGroup /> should render the overflow count correctly 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -201,7 +201,7 @@ exports[`<AvatarGroup /> should render the overflow count correctly 1`] = `
       data-testid="avatar-component"
     >
       <div
-        class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
+        class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
         data-testid="avatar-name"
       >
         CV
@@ -212,13 +212,13 @@ exports[`<AvatarGroup /> should render the overflow count correctly 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
     </div>
     <div
-      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-slate-300 text-slate-600 text-base font-semibold flex items-center justify-center"
       data-testid="avatar-more"
     >
       +
@@ -231,7 +231,7 @@ exports[`<AvatarGroup /> should render the overflow count correctly 1`] = `
 exports[`<AvatarGroup /> should render with different max length 1`] = `
 <div>
   <div
-    class="flex items-center -space-x-4"
+    class="flex items-center  -space-x-2"
     data-testid="avatar-container"
   >
     <div
@@ -239,7 +239,7 @@ exports[`<AvatarGroup /> should render with different max length 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -249,13 +249,13 @@ exports[`<AvatarGroup /> should render with different max length 1`] = `
     >
       <img
         alt="avatar"
-        class="h-10 w-10 rounded-full"
+        class="h-10 w-10 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
     </div>
     <div
-      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      class="flex-shrink-0 h-10 w-10 rounded-full border-solid border-2 border-white bg-slate-300 text-slate-600 text-base font-semibold flex items-center justify-center"
       data-testid="avatar-more"
     >
       +
@@ -268,7 +268,7 @@ exports[`<AvatarGroup /> should render with different max length 1`] = `
 exports[`<AvatarGroup /> should render with different size 1`] = `
 <div>
   <div
-    class="flex items-center -space-x-4"
+    class="flex items-center  -space-x-4"
     data-testid="avatar-container"
   >
     <div
@@ -276,7 +276,7 @@ exports[`<AvatarGroup /> should render with different size 1`] = `
     >
       <img
         alt="avatar"
-        class="h-20 w-20 rounded-full"
+        class="h-20 w-20 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -286,7 +286,7 @@ exports[`<AvatarGroup /> should render with different size 1`] = `
     >
       <img
         alt="avatar"
-        class="h-20 w-20 rounded-full"
+        class="h-20 w-20 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
@@ -295,7 +295,7 @@ exports[`<AvatarGroup /> should render with different size 1`] = `
       data-testid="avatar-component"
     >
       <div
-        class="flex-shrink-0 h-20 w-20 rounded-full border-2 border-white bg-green-400 text-white text-lg font-semibold flex items-center justify-center"
+        class="flex-shrink-0 h-20 w-20 rounded-full border-solid border-2 border-white bg-green-400 text-white text-lg font-semibold flex items-center justify-center"
         data-testid="avatar-name"
       >
         CV
@@ -306,13 +306,13 @@ exports[`<AvatarGroup /> should render with different size 1`] = `
     >
       <img
         alt="avatar"
-        class="h-20 w-20 rounded-full"
+        class="h-20 w-20 rounded-full border-solid border-2 border-white"
         data-testid="avatar-image"
         src="./ava.jpeg"
       />
     </div>
     <div
-      class="flex-shrink-0 h-20 w-20 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      class="flex-shrink-0 h-20 w-20 rounded-full border-solid border-2 border-white bg-slate-300 text-slate-600 text-lg font-semibold flex items-center justify-center"
       data-testid="avatar-more"
     >
       +

@@ -26,13 +26,15 @@ const AvatarGroup = ({ users, maxLength, size = 'md' }: AvatarGroupProps) => {
   return (
     <div
       data-testid="avatar-container"
-      className="flex items-center -space-x-4"
+      className={`flex items-center  ${
+        size !== 'lg' ? '-space-x-2' : '-space-x-4'
+      }`}
     >
       {users.slice(0, maxLength).map((user: User, idx: number) => (
         <div key={idx} data-testid="avatar-component">
           {user.image ? (
             <img
-              className={`${avatarSize} rounded-full`}
+              className={`${avatarSize} rounded-full border-solid border-2 border-white`}
               src={user.image}
               alt="avatar"
               data-testid="avatar-image"
@@ -40,7 +42,7 @@ const AvatarGroup = ({ users, maxLength, size = 'md' }: AvatarGroupProps) => {
           ) : (
             <div
               data-testid="avatar-name"
-              className={`flex-shrink-0 ${avatarSize} rounded-full border-2 border-white bg-green-400 text-white ${textSize} font-semibold flex items-center justify-center`}
+              className={`flex-shrink-0 ${avatarSize} rounded-full border-solid border-2 border-white bg-green-400 text-white ${textSize} font-semibold flex items-center justify-center`}
             >
               {getInitials(user.name)}
             </div>
@@ -50,7 +52,7 @@ const AvatarGroup = ({ users, maxLength, size = 'md' }: AvatarGroupProps) => {
       {overflowCount > 0 && (
         <div
           data-testid="avatar-more"
-          className={`flex-shrink-0 ${avatarSize} rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center`}
+          className={`flex-shrink-0 ${avatarSize} rounded-full border-solid border-2 border-white bg-slate-300 text-slate-600 ${textSize} font-semibold flex items-center justify-center`}
         >
           +{overflowCount}
         </div>
