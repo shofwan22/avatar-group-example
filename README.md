@@ -20,15 +20,7 @@ npm install
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
+npm start
 ```
 
 ## Testing
@@ -36,4 +28,9 @@ Run Unit Test
 
 ```bash
 npm run test
+```
+Run Test Coverage
+
+```bash
+npm run coverage
 ```
