@@ -1,9 +1,18 @@
 import { AvatarGroupProps, User } from './Avatar.types';
-import { AVATAR_SIZE, TEXT_SIZE } from '../../constants/avatar';
 
 const AvatarGroup = ({ users, maxLength, size = 'md' }: AvatarGroupProps) => {
-  const avatarSize = AVATAR_SIZE[size];
-  const textSize = TEXT_SIZE[size];
+  const avatarSize = {
+    xs: 'h-6 w-6',
+    sm: 'h-8 w-8',
+    md: 'h-10 w-10',
+    lg: 'h-20 w-20',
+  }[size];
+  const textSize = {
+    xs: 'text-xs',
+    sm: 'text-sm',
+    md: 'text-base',
+    lg: 'text-lg',
+  }[size];
   const overflowCount = users.length - maxLength;
 
   const getInitials = (name: string) => {
