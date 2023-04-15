@@ -3,25 +3,34 @@ import AvatarGroup from './components/AvatarGroup/AvatarGroup';
 
 function App() {
   const data = [
-    { name: 'Shofwan Hanif' },
-    { name: 'Ben Daviees' },
-    {
-      name: 'John Doe',
-      image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqXu_FLpL0Y46q1vnyPBX7JTZi4J8dx453IHRDMXQdi-l9qGP-LD1BxPigKQUV8sjszLk&usqp=CAU',
-    },
-    {
-      name: 'Cris Brown',
-      image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4hAiqRtFsxGqyNLbR8fU7hlGOy7-nvr2ieelwM7X5IDo-nm9iTKm5f5FNgF8GQg6dI3s&usqp=CAU',
-    },
+    { name: 'Alice Doe', image: './ava.jpeg' },
+    { name: 'Bob Marley', image: './ava.jpeg' },
+    { name: 'Charlie Van', image: '' },
+    { name: 'Dave Roney', image: './ava.jpeg' },
+    { name: 'De Jong', image: './ava.jpeg' },
+    { name: 'Frank Lamp', image: './ava.jpeg' },
   ];
   return (
-    <div className="App">
-      <div className="text-black text-3xl font-bold mb-4">
+    <div className="App px-4">
+      <div className="text-black text-3xl font-bold mb-6">
         Example Avatar Group Component
       </div>
-      <AvatarGroup maxLength={3} size="md" users={data} />
+      <div className="mb-4">
+        <p className="font-bold text xs">Size XS</p>
+        <AvatarGroup maxLength={3} size="xs" users={data} />
+      </div>
+      <div className="mb-4">
+        <p className="font-bold text xs">Size SM</p>
+        <AvatarGroup maxLength={4} size="sm" users={data} />
+      </div>
+      <div className="mb-4">
+        <p className="font-bold text xs">Size MD</p>
+        <AvatarGroup maxLength={5} size="md" users={data} />
+      </div>
+      <div className="mb-4">
+        <p className="font-bold text xs">Size LG</p>
+        <AvatarGroup maxLength={5} size="lg" users={data} />
+      </div>
     </div>
   );
 }

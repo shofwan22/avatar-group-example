@@ -7,6 +7,6 @@ export interface User {
 
 export interface AvatarGroupProps {
   maxLength: number;
-  size: Size;
+  size?: Size;
   users: User[];
 }

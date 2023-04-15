@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AvatarGroup /> renders correct number of avatars 1`] = `
+<div>
+  <div
+    class="flex items-center -space-x-4"
+    data-testid="avatar-container"
+  >
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <div
+        class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
+        data-testid="avatar-name"
+      >
+        CV
+      </div>
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      data-testid="avatar-more"
+    >
+      +
+      2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AvatarGroup /> should render correctly 1`] = `
+<div>
+  <div
+    class="flex items-center -space-x-4"
+    data-testid="avatar-container"
+  >
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <div
+        class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
+        data-testid="avatar-name"
+      >
+        CV
+      </div>
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      data-testid="avatar-more"
+    >
+      +
+      2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AvatarGroup /> should render name initial if there is no image 1`] = `
+<div>
+  <div
+    class="flex items-center -space-x-4"
+    data-testid="avatar-container"
+  >
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <div
+        class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
+        data-testid="avatar-name"
+      >
+        CV
+      </div>
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      data-testid="avatar-more"
+    >
+      +
+      2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AvatarGroup /> should render the overflow count correctly 1`] = `
+<div>
+  <div
+    class="flex items-center -space-x-4"
+    data-testid="avatar-container"
+  >
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <div
+        class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-green-400 text-white text-base font-semibold flex items-center justify-center"
+        data-testid="avatar-name"
+      >
+        CV
+      </div>
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      data-testid="avatar-more"
+    >
+      +
+      2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AvatarGroup /> should render with different max length 1`] = `
+<div>
+  <div
+    class="flex items-center -space-x-4"
+    data-testid="avatar-container"
+  >
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-10 w-10 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      class="flex-shrink-0 h-10 w-10 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      data-testid="avatar-more"
+    >
+      +
+      4
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AvatarGroup /> should render with different size 1`] = `
+<div>
+  <div
+    class="flex items-center -space-x-4"
+    data-testid="avatar-container"
+  >
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-20 w-20 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-20 w-20 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <div
+        class="flex-shrink-0 h-20 w-20 rounded-full border-2 border-white bg-green-400 text-white text-lg font-semibold flex items-center justify-center"
+        data-testid="avatar-name"
+      >
+        CV
+      </div>
+    </div>
+    <div
+      data-testid="avatar-component"
+    >
+      <img
+        alt="avatar"
+        class="h-20 w-20 rounded-full"
+        data-testid="avatar-image"
+        src="./ava.jpeg"
+      />
+    </div>
+    <div
+      class="flex-shrink-0 h-20 w-20 rounded-full border-2 border-white bg-slate-300 text-slate-600 text-sm font-semibold flex items-center justify-center"
+      data-testid="avatar-more"
+    >
+      +
+      2
+    </div>
+  </div>
+</div>
+`;
