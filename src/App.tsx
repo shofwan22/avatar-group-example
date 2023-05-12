@@ -3,10 +3,10 @@ import AvatarGroup from './components/AvatarGroup/AvatarGroup';
 
 function App() {
   const data = [
-    { name: 'Alice Doe', image: './ava.jpeg' },
+    { name: 'Alice Doe Goergo', image: '' },
     { name: 'Bob Marley', image: './ava.jpeg' },
     { name: 'Charlie Van', image: '' },
-    { name: 'Dave Roney', image: './ava.jpeg' },
+    { name: 'Dave', image: '' },
     { name: 'De Jong', image: './ava.jpeg' },
     { name: 'Frank Lamp', image: './ava.jpeg' },
   ];
